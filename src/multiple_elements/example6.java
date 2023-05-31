@@ -27,7 +27,7 @@ public class example6
 		for(WebElement s1:all)
 		{
 			s1.click();
-			Thread.sleep(300);
+			Thread.sleep(500);
 		}
 		
 		for(WebElement s2:all)
