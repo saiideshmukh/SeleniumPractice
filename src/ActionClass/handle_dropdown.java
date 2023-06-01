@@ -29,7 +29,7 @@ public class handle_dropdown
 			
 			Thread.sleep(1500);
 			//click on dropdown element wishlist
-			driver.findElement(By.xpath("//div[text()='Wishlist']")).click();
+			driver.findElement(By.xpath("//div[text()='Wishlist']")).click();		//element doesn't work properly
 			
 			
 			

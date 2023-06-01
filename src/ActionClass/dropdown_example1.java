@@ -17,12 +17,15 @@ public class dropdown_example1
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
 			driver.get("https://www.amazon.in/");
 			
+			//Find drop down element 
 			WebElement ac = driver.findElement(By.xpath("//span[text()='Account & Lists']"));
 			
-			
+			//create an object of actions class
 			Actions act=new Actions(driver);
 			
+			//move mouse cursor on web-element
 			act.moveToElement(ac).perform();
+			
 			Thread.sleep(1500);
 			driver.findElement(By.xpath("//span[text()='Create a Wish List']")).click();
 			

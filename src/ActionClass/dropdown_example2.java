@@ -23,6 +23,9 @@ public class dropdown_example2
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//div[text()='Advertise']")).click();
 		
+		Thread.sleep(2000);
+		driver.close();
+		
 
 		
 		
